@@ -141,10 +141,6 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
-<li>$:/config/Navigation/openLinkFromInsideRiver</li>
-
-<li>$:/config/Navigation/openLinkFromOutsideRiver</li>
-
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -156,22 +152,6 @@ Error message and password prompt
 <li>$:/plugins/felixhayashi/hotzone</li>
 
 <li>$:/plugins/felixhayashi/tiddlymap</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:central-topic</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:neighbour</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/edges</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/map</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/misc/meta</li>
 
 <li>$:/plugins/felixhayashi/topstoryview</li>
 
@@ -187,31 +167,17 @@ Error message and password prompt
 
 <li>$:/StoryList</li>
 
-<li>$:/temp/focussedTiddler</li>
-
 <li>$:/temp/info-plugin</li>
-
-<li>$:/temp/tmap/currentTiddler</li>
-
-<li>$:/temp/tmap/nodes/Default</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
-
-<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
-
-<li>$:/view</li>
 
 <li>第二次作业</li>
 
 <li>第三次作业</li>
 
 <li>第一次作业</li>
-
-<li>Have fun with</li>
-
-<li>TiddlyMap!!</li>
 
 </ul>
 </p>
@@ -227,12 +193,6 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div title="$:/config/Navigation/openLinkFromInsideRiver">
-<pre>above</pre>
-</div>
-<div title="$:/config/Navigation/openLinkFromOutsideRiver">
-<pre>top</pre>
-</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9611,7 +9571,8 @@ Error message and password prompt
 </div>
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
-</pre>
+
+# [[$:/plugins/felixhayashi/topstoryview]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -9649,7 +9610,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="$:/plugins/felixhayashi/vis" depends="$:/plugins/felixhayashi/vis" description="TiddlyMap – Map drawing and topic visualization for your wiki" list="readme license" modified="20201122120111925" plugin-type="plugin" released="Sun, 27 Sep 2020 20:47:13 GMT" source="https://github.com/felixhayashi/TW5-TiddlyMap" suggested="$:/plugins/felixhayashi/topstoryview" title="$:/plugins/felixhayashi/tiddlymap" type="application/json" version="0.17.8+10010">
+<div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="$:/plugins/felixhayashi/vis" depends="$:/plugins/felixhayashi/vis" description="TiddlyMap – Map drawing and topic visualization for your wiki" list="readme license" plugin-type="plugin" released="Sun, 27 Sep 2020 20:47:13 GMT" source="https://github.com/felixhayashi/TW5-TiddlyMap" suggested="$:/plugins/felixhayashi/topstoryview" title="$:/plugins/felixhayashi/tiddlymap" type="application/json" version="0.17.8+10010">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/felixhayashi/tiddlymap/layout&quot;: {
@@ -10295,45 +10256,6 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div description="The style is applied to the node that you marked as central topic in a map." priority="1" style="{&quot;font&quot;:{&quot;size&quot;:22,&quot;color&quot;:&quot;rgba(0,0,0,1)&quot;},&quot;shape&quot;:&quot;star&quot;}" title="$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:central-topic">
-<pre></pre>
-</div>
-<div description="Neighbours are all nodes that are not part of the original set of nodes (&quot;matches&quot;) but are connected (either outgoing or incoming) to a node of the original set." priority="1" style="{&quot;color&quot;:&quot;#565656&quot;}" title="$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:neighbour">
-<pre></pre>
-</div>
-<div filter="-[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/edges">
-<pre></pre>
-</div>
-<div filter=" [field:tmap.id[00444d37-3f65-4a47-b8c5-a2a32e71bfa1]] [field:tmap.id[9a59f7f0-ea3d-4cd8-8898-51a40b86d32a]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes">
-<pre></pre>
-</div>
-<div title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/map">
-<pre>{
- &quot;00444d37-3f65-4a47-b8c5-a2a32e71bfa1&quot;: {
-  &quot;x&quot;: 0,
-  &quot;y&quot;: 0
- },
- &quot;9a59f7f0-ea3d-4cd8-8898-51a40b86d32a&quot;: {
-  &quot;x&quot;: 100,
-  &quot;y&quot;: 100
- }
-}</pre>
-</div>
-<div config.neighbourhood_scope="1" config.physics_mode="true" config.refresh-triggers="$:/temp/tmap/currentTiddler" config.vis="{&quot;physics&quot;:{&quot;forceAtlas2Based&quot;:{&quot;springConstant&quot;:0.09}}}" created="20150331114808577" isview="true" modified="20200509212547688" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Live View" type="text/vnd.tiddlywiki">
-<pre></pre>
-</div>
-<div filter="-[prefix[_]] " title="$:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges">
-<pre>
-
-</pre>
-</div>
-<div created="20201122120010230" modified="20201122120109755" title="$:/plugins/felixhayashi/tiddlymap/misc/meta" type="application/json">
-<pre>{
-    &quot;originalVersion&quot;: &quot;0.17.8+10010&quot;,
-    &quot;dataStructureState&quot;: &quot;0.11.0&quot;,
-    &quot;showWelcomeMessage&quot;: false
-}</pre>
-</div>
 <div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="" description="TopStoryView – Always scroll navigated tiddlers to the top" list="Configuration License Readme" plugin-type="plugin" released="" source="https://github.com/felixhayashi/TW5-TopStoryView" title="$:/plugins/felixhayashi/topstoryview" type="application/json" version="0.2.0">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10480,17 +10402,14 @@ Error message and password prompt
 <div created="20201019122300536" modified="20201024062322303" title="$:/SiteTitle">
 <pre>陆珊珊的作业本</pre>
 </div>
-<div created="20201024070503011" modified="20201122120119437" title="$:/state/tab/sidebar--595412856">
-<pre>$:/plugins/felixhayashi/tiddlymap/hook/editor</pre>
+<div created="20201024070503011" modified="20201122115951973" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>yes</pre>
 </div>
-<div list="$:/Import" title="$:/StoryList">
+<div created="20201122113655918" list="$:/Import 第三次作业" modified="20201122115146843" title="$:/StoryList">
 <pre></pre>
-</div>
-<div modified="20201122120018414" title="$:/temp/focussedTiddler">
-<pre>$:/Import</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -10549,12 +10468,6 @@ Error message and password prompt
         }
     }
 }</pre>
-</div>
-<div title="$:/temp/tmap/currentTiddler">
-<pre>$:/Import</pre>
-</div>
-<div list="TiddlyMap!! [[Have fun with]]" title="$:/temp/tmap/nodes/Default">
-<pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
@@ -10665,13 +10578,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
-<pre>fixed-fluid</pre>
-</div>
-<div title="$:/view">
-<pre>top</pre>
-</div>
-<div created="20201109041306318" modified="20201109061808849" tags="" title="第二次作业" tmap.id="89547eb4-5c86-4139-8972-c38a3b272ca2">
+<div created="20201109041306318" modified="20201109061808849" tags="" title="第二次作业">
 <pre>信息源的定义：
 信息源一般指通过某种物质传出去的信息，即是信息的发源地/来源地(包括信息资源生产地和发生地、源头、根据地)。信息源内涵丰富，它不仅包括各种信息载体，也包括各种信息机构;不仅包括传统印刷型文献资料，也包括现代电子图书报刊;不仅包括各种信息储存和信息传递机构，也包括各种信息生产机构。信息是事物现象及其属性标识的集合。信息是信息论中的一个术语，常常把消息中有意义的内容称为信息。
 
@@ -10688,20 +10595,14 @@ Error message and password prompt
 可分为科技信息源、 管理信息源、 生产信息源、 金融信息源、 市场信息源等。
 </pre>
 </div>
-<div created="20201109061609609" modified="20201122113702200" tags="" title="第三次作业" tmap.id="39b50f6c-c175-4d80-880e-4dfa22e60f0b">
+<div created="20201109061609609" modified="20201122113702200" tags="" title="第三次作业">
 <pre>我们生活中涉及到的信息栈主要有：
 出版机构、广播系统、图书馆、新闻、互联网、邮政系统、报纸、博物馆等。</pre>
 </div>
-<div created="20201024062418287" modified="20201024070315956" tags="" title="第一次作业" tmap.id="9c9da4a9-d2df-49e2-a67a-d1efde7064e1">
+<div created="20201024062418287" modified="20201024070315956" tags="" title="第一次作业">
 <pre>1、涉及到的个人信息:支付宝、身份证号码、微信、银行卡、姓名、资金还有几个APP的平台使用信息。
 2、首先要保护好自己的手机、身份证和银行卡等重要的东西；然后不乱点来路不明的二维码；最后应使用相关的安全的管理软件管理自己重要的个人信息
 3、建议：用技术解决APP存在的不健全的验证；不要把个人重要的信息泄露出去，注意保护好自己的手机，要给自己的手机设密码；如果手机丢失了，要第一时间冻结银行卡。</pre>
-</div>
-<div created="20201122120111923" modified="20201122120111923" title="Have fun with" tmap.edges="{&quot;219b974e-0633-4d96-9d83-81df1eb0a0c2&quot;:{&quot;to&quot;:&quot;9a59f7f0-ea3d-4cd8-8898-51a40b86d32a&quot;,&quot;type&quot;:&quot;tmap:unknown&quot;}}" tmap.id="00444d37-3f65-4a47-b8c5-a2a32e71bfa1">
-<pre></pre>
-</div>
-<div created="20201122120111924" modified="20201122120111924" title="TiddlyMap!!" tmap.id="9a59f7f0-ea3d-4cd8-8898-51a40b86d32a">
-<pre></pre>
 </div>
 
 
